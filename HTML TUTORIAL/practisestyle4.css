@@ -1,0 +1,64 @@
+/* @keyframes myname { 
+    from {font-size:20px;}
+    t0 {font-size: 40px;}    
+}
+@keyframes myname {
+    0%{
+        left:0px;
+        background-color: aliceblue;
+    }
+    50%{
+        background-color: aqua;
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    100%{
+        background-color: antiquewhite;
+        font-weight: bold;
+    }
+}
+div{
+    height: 100px;
+    width: 500px;
+    border : 2px solid black;
+    border-radius: 10px;
+    transition:all 3s steps(5)1s;
+    transform:rotate (45deg);
+    animation-name: myname;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    
+}
+div:hover{
+    background-color: aquamarine;
+    color : blue;
+    font-size: 20px;
+    /*  
+    transform:rotate(180deg);
+    transform: scale (2);
+    transform: translatX(-200px);
+    transform:skew(90deg);
+    
+}
+div:active {
+    background-color: beige;
+}*/
+div{
+    height: 50px;
+    width: 50px;
+    border:2px solid pink;
+    border-top :2px solid black ;
+    border-radius: 50%; 
+    animation:loading 1s ease-in 3s infinite normal;   
+}
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

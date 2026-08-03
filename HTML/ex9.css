@@ -1,0 +1,44 @@
+
+body {
+    background-image: url('image2.webp'); 
+    background-repeat:no-repeat; 
+    background-size: cover; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    margin-top: 30px;
+    color: #222;
+}
+.pattern-box {
+    background-image: url('cat.webp');
+    background-size:100px 100px;
+    background-repeat: repeat;
+    width: 400px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+}

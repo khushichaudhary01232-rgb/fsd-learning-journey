@@ -1,0 +1,117 @@
+/*h1{
+    background-color: beige;
+    color:black;
+    text-align: center;
+    text-decoration: dashed underline;
+    font-family:handwriting,serif,monospace;
+    font-size:100px;
+    font-weight:700;
+}
+h2{
+    background-color: lightgrey;
+    color:green;
+    text-align: left;
+    text-decoration: wavy underline;
+    font-family:verdana,sans-serif;
+    font-size:80px;
+    font-weight:600;
+}
+h3{
+    background-color: lightyellow;
+    color:purple;
+    text-align: right;
+    text-decoration: dotted underline;
+    font-family:arial,sans-serif;
+    font-size:60px;
+    font-weight:500;
+}
+a{
+    text-decoration: none;
+}
+div {
+    background-color: lightpink;
+    
+    border:10px double black ;
+    padding :15px,20px,30px,5px;
+    border-radius:15px;
+    margin:5px,8px,13px,7px;
+}
+#para2{
+    background-color: seashell;
+    border:10px dashed red;
+    padding :10px,15px,20px,5px;
+    border-radius:10px;
+}*/
+#nav{
+    background-color: black;
+    color :white;
+    height:60 px ;
+    border:15px solid white;
+
+}
+a{
+    margin:75px;
+}
+#logo{
+    font-size:25px;
+    color :orange;
+}
+button{
+    background-color: orange;
+    color :white;
+    border-radius:5px;
+}
+/*
+#dis{
+    width:100px;
+    height:100px;
+    background-color:rgba(0,0,200,0.5);
+    display:inline-block ;
+    margin:10px;
+}
+/*#dis2{
+    width:100px;
+    height:100px;
+    background-color: green;
+    display:inline-block ;
+    margin:10px;
+}
+#dis3{
+    width:100px;
+    height:100px;
+    background-color:rgba(255,0,0,0.75);
+    display:inline-block;
+    margin:10px;
+}
+#dis2{
+    width:100px;
+    height:100px;
+    background-color: green;
+    /*display:none ;
+    margin:10px;
+    visibility: hidden;
+}*/
+.content1{
+    height: 100px;
+    width: 200px;
+    border :10px double black;
+    background-color: rgba(0, 225, 75, 0.25);
+    display: inline-block;
+}
+.content2{
+    height: 100px;
+    width: 200px;
+    border :10px double black;
+    background-color: rgba(255, 0, 0, 0.75);
+    display: inline-block;
+}
+.content3{
+    height: 100px;
+    width: 200px;
+    border :10px double black;
+    background-color: rgba(0, 0, 225, 0.5);
+    display: inline-block;
+}
+#content{
+    height: 500px;
+}

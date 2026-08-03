@@ -1,0 +1,35 @@
+/* Background image for full page */
+body {
+    background-image: url('image2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+
+.heading {
+    font-family: 'Georgia', serif;
+    color: darkblue;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.para {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.box {
+    background-image: url('image.webp');
+    background-size: cover;
+    padding: 20px;
+    margin: 30px auto;
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+}
