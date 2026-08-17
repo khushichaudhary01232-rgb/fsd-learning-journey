@@ -69,7 +69,7 @@ let title = document.getElementById("num")
 title.style.color="red"
 let titles = document.querySelectorAll("#num")
 titles.style.color=("yellow")
-*/
+
 let id = document.getElementById("id1")
 let sp1 = document.getElementById("sp1")
 console.log (id1)
@@ -79,11 +79,11 @@ console.log(id1.closest(".box"))
 console.log(sp1.closest("#sp1"))
 console.log(sp1.contains(id1))
 console.log(id1.contains(sp1))
+*/
+document.getElementsByTagName("nav")[0].firstElementChild.style.color="red"
+document.getElementsByTagName("nav")[0].firstElementChild.style.color="pink"
+document.getElementsByTagName("nav")[0].lastElementChild.style.color="pink"
 
-
-
-
-
-
-
-
+Array.from(document.getElementsByTagname("li")).forEach((element) =>{
+    element.style.color="red"
+})

@@ -1,0 +1,9 @@
+nav{ 
+    display:flex;
+    background-color: aquamarine;
+}
+nav li{
+    list-style:none ;
+    margin:auto;
+    padding: 10,10,10;
+}
