@@ -1,0 +1,15 @@
+window.onload = function() {
+    let p= document.getElementById("first")
+    let a =first.getAttribute("class")
+    console.log(a)
+    let b = first.hasAttribute("class")
+    console.log(b)
+    let c = first.hasAttribute("style")
+    console.log(c)
+    p.setAttribute("class","khushi true")
+    first.removeAttribute("class")
+    console.log (first.attributes)
+    console.log(first.dataset)
+    console.log(first.dataset.name)
+    console.log(first.dataset.player)
+}
