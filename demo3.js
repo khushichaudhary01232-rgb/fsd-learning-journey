@@ -1,4 +1,4 @@
-window.onload = function() {
+/*window.onload = function() {
     let p= document.getElementById("first")
     let a =first.getAttribute("class")
     console.log(a)
@@ -13,3 +13,14 @@ window.onload = function() {
     console.log(first.dataset.name)
     console.log(first.dataset.player)
 }
+    */
+let a= document.getElementsByTagName("div")[0]
+//a.innerHTML=a.innerHTML+'<h1>hellow world !</h1>';
+let div = document.createElement("div")
+div.innerHTML= '<h1>hello world !</h1>'
+//a.appendChild(div)
+//a.append(div)
+//a.prepend(div)
+//a.after(div)
+//a.before(div)
+a.replaceWith(div)
