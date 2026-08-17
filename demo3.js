@@ -13,7 +13,7 @@
     console.log(first.dataset.name)
     console.log(first.dataset.player)
 }
-    */
+    
 let a= document.getElementsByTagName("div")[0]
 //a.innerHTML=a.innerHTML+'<h1>hellow world !</h1>';
 let div = document.createElement("div")
@@ -24,3 +24,9 @@ div.innerHTML= '<h1>hello world !</h1>'
 //a.after(div)
 //a.before(div)
 a.replaceWith(div)
+*/
+//first.insertAdjacentHTML("beforebegin" ,'<h3 class="test">beforeend</h3>')
+//first.insertAdjacentHTML("beforeend" ,'<h3 class="test">beforeend</h3>')
+//first.insertAdjacentHTML("afterbegin" ,'<h3 class="test">beforeend</h3>')
+//first.insertAdjacentHTML("afterend" ,'<h3 class="test">beforeend</h3>')
+first.remove()
