@@ -30,8 +30,33 @@ a.replaceWith(div)
 //first.insertAdjacentHTML("afterbegin" ,'<h3 class="test">beforeend</h3>')
 //first.insertAdjacentHTML("afterend" ,'<h3 class="test">beforeend</h3>')
 //first.remove()
-first.className="yellow text-light"
+//first.className="yellow text-light"
 //first.classList.remove("yellow")
 //first.classList.add("red")
 //first.classList.toggle("red")
-console.log(first.classList.contains("red"))
+//console.log(first.classList.contains("red"))
+/*
+document.write("hello")
+alert("hello")
+let b=setTimeout(function(){
+    alert("i am inside settimeout")},3000)
+let a=prompt("you want settimeout?")
+if ("no"==a){
+    clearTimeout(b)
+}*/
+/*const sum=(a,b,c)=>{
+    console.log("i am running"+(a+b+c))
+    a+b+c
+}
+setTimeout(sum,1000,1,2,3)
+
+setInterval(function(){
+    alert ("Set Interval")
+},3000)
+
+const mul=(a,b,c)=>{
+    console.log("i am running"+(a*b*c))
+    a*b*c
+}
+setInterval(mul,2000,1,2,3)
+*/
