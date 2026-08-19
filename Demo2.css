@@ -1,4 +1,4 @@
-.yellow{
+/*.yellow{
     color:black;
     background-color: yellow;
 }
@@ -8,4 +8,13 @@
 }
 .text-light{
     color:white;
+}*/
+.bulb{
+    height :340px;
+    width:340px ;
+    background-color: yellow;
+}
+.bulbstop{
+    height :340px;
+    width:340px ;
 }

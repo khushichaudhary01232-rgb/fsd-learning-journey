@@ -69,7 +69,8 @@ let a = document.querySelector(".container");
 
 a.onclick = () => {
     a.innerHTML = "hello world";
-}*/
+}
+
 let x = function(e){
     alert("Hello1")
 }
@@ -93,3 +94,14 @@ let p= function(event){
     console.log(event.clientY)
     alert("hello khushi")
 }
+    
+document.getElementById("google").addEventListener('click',function(){
+    url =  "https://google.com"
+    window.location ="https://google.com"
+    win.focus()
+})
+    */
+setInterval(async function () {
+    document.querySelector("#bulb").classList.toggle("bulb")
+   
+},300)
