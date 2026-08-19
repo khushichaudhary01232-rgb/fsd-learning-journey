@@ -59,4 +59,14 @@ const mul=(a,b,c)=>{
     a*b*c
 }
 setInterval(mul,2000,1,2,3)
-*/
+
+let a = document.getElementsByClassName("container")[0]
+a.onclick=()=>{
+    let b= document.getElementsByClassName("container")[0]
+    b.innerHTML="hello world"
+}*/
+let a = document.querySelector(".container");
+
+a.onclick = () => {
+    a.innerHTML = "hello world";
+}
