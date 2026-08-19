@@ -64,9 +64,32 @@ let a = document.getElementsByClassName("container")[0]
 a.onclick=()=>{
     let b= document.getElementsByClassName("container")[0]
     b.innerHTML="hello world"
-}*/
+}
 let a = document.querySelector(".container");
 
 a.onclick = () => {
     a.innerHTML = "hello world";
+}*/
+let x = function(e){
+    alert("Hello1")
+}
+let y= function(e){
+    alert("hello2")
+}
+btn.addEventListener('click',x)
+btn.addEventListener('click',y)
+
+let a= prompt("what is the number")
+
+if (a=="2"){
+    btn.removeEventListener('click',x)
+}
+let p= function(event){
+    console.log(event.target)
+    console.log(event)
+    console.log(event.type)
+    console.log(event.currentTarget)
+    console.log(event.clientX)
+    console.log(event.clientY)
+    alert("hello khushi")
 }
